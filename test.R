@@ -1,10 +1,10 @@
 fil <- tempfile("women", fileext = ".rds")
 saveRDS(women, fil)
 fil
-women2 <- readRDS(fil)
+women3 <- readRDS(fil)
 
-women2 <- women
-?women
+women3 <- women
+?women3
 
 
 require(graphics)
